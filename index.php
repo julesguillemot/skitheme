@@ -11,6 +11,7 @@
    <a href="<?php the_permalink();?>"><h3><?php the_title(); ?></h3></a>
    <p><?php the_excerpt(); ?></p>
    <small>Publié le <?php the_date('j F Y'); ?> à <?php the_time('G\hi'); ?>.</small>
+   <p>Le post a suscité <?php comments_number('aucune de réaction','1 réaction','% réactions');?></p>
  <?php endwhile;endif; ?>
  <?php get_sidebar(); ?>
 <?php
