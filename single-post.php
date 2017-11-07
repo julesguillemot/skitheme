@@ -9,7 +9,7 @@
  <?php if(have_posts()):while(have_posts()):
    the_post(); ?>
    <a href="<?php the_permalink();?>"><h3><?php the_title(); ?></h3></a>
-   <p><?php the_excerpt(); ?></p>
+   <p><?php the_content(); ?></p>
    <small>Publié le <?php the_date('j F Y'); ?> à <?php the_time('G\hi'); ?>.</small>
  <?php endwhile;endif; ?>
  <?php get_sidebar(); ?>
