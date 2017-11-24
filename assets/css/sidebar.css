@@ -12,6 +12,13 @@ WIDGETS
   padding: 20px;
   margin: 40px auto 30px auto;
 }
+.widget a {
+  color: #2d2d2d;
+    transition: all 0.2s linear;
+}
+.widget a:hover {
+  color: #ff3a3a;
+}
 .widgets-content-position {
   margin: 0 auto;
   width: 430px;
