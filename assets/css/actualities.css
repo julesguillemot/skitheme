@@ -61,11 +61,65 @@ a.article-title-link:hover{
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  padding-bottom: 20px;
 }
 .article-comments {
   color: #2d2d2d;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 13px;
+  padding-top: 20px;
+}
+
+/*
+-----------
+SINGLE-POST
+-----------
+*/
+.single-post-content {
+  margin-top: 20px;
+}
+.single-post-excerpt p:first-child {
+  padding-bottom: 10px;
+}
+.single-post-excerpt a {
+  color: #2d2d2d;
+  transition: all 0.2s linear;
+}
+.single-post-excerpt a:hover {
+  color: #ff3a3a;
+  transition: all 0.2s linear;
+}
+.single-post-comments {
+  padding-top: 0;
+}
+
+/*
+--------
+COMMENTS
+--------
+*/
+.article-comments-content {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  margin: 0 auto 20px auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+.article-comments-content form p {
+  padding-top: 10px;
+}
+.article-comments-number {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  margin: 0 auto 20px auto;
 }

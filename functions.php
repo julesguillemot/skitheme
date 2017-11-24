@@ -9,8 +9,8 @@ add_action('after_setup_theme','theme_support');
 function scripts(){
   wp_enqueue_style('style',get_stylesheet_uri());
   wp_enqueue_style('general',get_template_directory_uri().'/assets/css/general.css');
-  wp_enqueue_style('actuality',get_template_directory_uri().'/assets/css/actuality.css');
-  wp_enqueue_style('widgets',get_template_directory_uri().'/assets/css/widgets.css');
+  wp_enqueue_style('actualities',get_template_directory_uri().'/assets/css/actualities.css');
+  wp_enqueue_style('sidebar',get_template_directory_uri().'/assets/css/sidebar.css');
 }
 add_action('wp_enqueue_scripts','scripts');
 

@@ -22,8 +22,10 @@ Template Name: Actualites
    </div>
  <?php endwhile;endif; wp_reset_query(); ?>
  </section>
- <section class="widgets">
-   <?php get_sidebar(); ?>
+ <section class="">
+   <div class="widgets">
+     <?php get_sidebar(); ?>
+   </div>
  </section>
 <?php
   get_footer();

@@ -1,0 +1,26 @@
+/*
+-------
+WIDGETS
+-------
+*/
+.widgets-content {
+  background-color: white;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  width: 500px;
+  padding: 20px;
+  margin: 40px auto 30px auto;
+}
+.widgets-content-position {
+  margin: 0 auto;
+  width: 430px;
+}
+.widget {
+  display: inline-flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2d2d2d;
+  padding: 0 20px;
+}
