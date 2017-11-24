@@ -1,0 +1,71 @@
+/*
+---------
+ACTUALITY
+---------
+*/
+.actuality-content {
+  height: auto;
+  width: auto;
+  background-color: #f4f4f4;
+}
+.actuality-content-position {
+  margin: 30px auto;
+}
+.actuality-title {
+  width: 113px;
+  margin: 0 auto;
+  color: #2d2d2d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/*
+-------
+ARTICLE
+-------
+*/
+.article-content {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  margin: 0 auto 20px auto;
+
+}
+.article-title-link {
+  color: #2d2d2d;
+  transition: all 0.2s linear;
+}
+a.article-title-link:hover{
+  color: #ff3a3a;
+}
+.article-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.article-sharing {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #d8d8d8;
+  padding-bottom: 10px;
+}
+.article-excerpt {
+  color: #2d2d2d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+.article-comments {
+  color: #2d2d2d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}

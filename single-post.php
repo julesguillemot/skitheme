@@ -7,14 +7,15 @@
  </section>
  <!--The loop-->
  <?php the_post(); ?>
-   <a href="<?php the_permalink();?>"><h3><?php the_title(); ?></h3></a>
-   <p><?php the_content(); ?></p>
-   <small>Publié le <?php the_date('j F Y'); ?> à <?php the_time('G\hi'); ?>.</small>
-   <p>Le post a suscité <?php comments_number('aucune réaction','1 réaction','% réactions');?></p>
- <?php if(comments_open() || get_comments_number()):
- comments_template();
- endif;
- ?>
+   <div class="article-content">
+     <h4 class="article-title"><?php the_title(); ?></h4>
+     <p class="article-sharing">Publié le <?php the_date('j F Y'); ?> à <?php the_time('G\hi'); ?>.</p>
+     <div class="article-excerpt"><?php the_content(); ?></div>
+     <p class="article-comments"><?php comments_number('pas de commentaire','1 commentaire','% commentaires');?></p>
+     <?php if(comments_open() || get_comments_number()):
+       comments_template();
+     endif;?>
+   </div>
 <?php get_sidebar(); ?>
 <?php
   get_footer();
